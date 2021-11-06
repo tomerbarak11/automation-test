@@ -1,0 +1,17 @@
+{
+  "name": "elbit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-windows": "CALL ./node_modules/.bin/mocha.cmd",
+    "test-linux": "./node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "superagent": "^6.1.0"
+  }
+}
